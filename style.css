@@ -8,6 +8,19 @@
         font-family: 'Courier New', Courier, monospace;
       }
 
+      body{
+        cursor: url("imagens/Mini-Cursor.32.png"), default;
+      }
+    
+      button, a, img:hover, button:hover, a:hover{
+        cursor: url("imagens/Cursor.32.png"), auto;
+
+      }
+     
+      .versus-bottom .rp-button{
+        padding: 0.6rem;
+      }
+
     .bg-video{
         position: absolute;
         z-index: -2;
@@ -40,7 +53,7 @@
         height: 100vh;
     }
     .container__left{
-       border: 0.2rem solid rgb(13, 58, 13);
+        border: 0.2rem solid rgb(1, 17, 6);
        background-color:  rgb(53, 138, 53);
        width: 35%;
        min-width: 18.75rem;
@@ -99,7 +112,9 @@
         flex-direction: column;
         padding-top: 0.1rem;
         height: 18.75rem;
-        margin-top: 5rem;
+       margin-top: 5rem;
+        justify-items: center;
+        align-items: center;
 
     }
 
@@ -130,7 +145,10 @@
         height: 11.2rem;
         width: 8rem;
         border-radius: 0.5rem;
+        border: 0.063rem solid white;
      }
+    
+
      .card{
         transition: transform 0.2s;
 
